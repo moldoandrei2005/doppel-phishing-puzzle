@@ -25,6 +25,7 @@ If all $s_i$ are equal, every feasible distribution has the same payoff. Otherwi
 | $0 < C < \log(1 / Q)$ | Use the exponential tilt $p_i^*=q_i e^{\beta s_i}/Z(\beta)$, where $Z(\beta)=\sum_j q_j e^{\beta s_j}$ and the unique $\beta>0$ that satisfies $D(p^* \Vert q)=C$. |
 | $C \geq \log(1 / Q)$ | Use $p_i^*=q_i/Q$ for $i \in S$ and $p_i^*=0$ otherwise. This attains the largest possible payoff $m$. |
 
+
 ## Full derivation
 
 Read [the full proof (Word)](full-proof.docx) for the Lagrange-multiplier derivation, the KL limit calculation, and the boundary case. The site version is available at [index.html](index.html).
