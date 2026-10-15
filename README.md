@@ -21,9 +21,9 @@ $$
 If all $s_i$ are equal, every feasible distribution has the same payoff. Otherwise:
 
 | Detection threshold | Optimal strategy |
-| --- | --- |
-| $0<C<\log(1/Q)$ | Use the exponential tilt $p_i^*=q_i e^{\beta s_i}/Z(\beta)$, where $Z(\beta)=\sum_jq_j e^{\beta s_j}$ and the unique $\beta>0$ that satisfies $D(p^*\Vert q)=C$. |
-| $C\geq\log(1/Q)$ | Use $p_i^*=q_i/Q$ for $i\in S$ and $p_i^*=0$ otherwise. This attains the largest possible payoff $m$. |
+| :--- | :--- |
+| $0 < C < \log(1 / Q)$ | Use the exponential tilt $p_i^*=q_i e^{\beta s_i}/Z(\beta)$, where $Z(\beta)=\sum_j q_j e^{\beta s_j}$ and the unique $\beta>0$ that satisfies $D(p^* \Vert q)=C$. |
+| $C \geq \log(1 / Q)$ | Use $p_i^*=q_i/Q$ for $i \in S$ and $p_i^*=0$ otherwise. This attains the largest possible payoff $m$. |
 
 ## Full derivation
 
